@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table and Images</title>
+</head>
+<style>
+    .table {
+        display: flex;
+        justify-content: center;
+    }
+
+    .table2 {
+        margin-top: 40px;
+    }
+
+    table,
+    th,
+    td {
+        border: 1px solid white;
+        border-collapse: collapse;
+        padding: 10px 12px;
+        box-shadow: 2px 2px 3px 1px rgba(0,0,0,0.2);
+    }
+
+    th {
+        background-color: darkorange;
+        color: white;
+    }
+
+    td {
+        background-color: cornflowerblue;
+        color: antiquewhite;
+        border: 1px solid white;
+    }
+    .Image1{
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        height: 300px;
+        width: 80% !important;
+    }
+    .Image2{
+        justify-content: center;
+        align-content: center;
+        width: 80%;
+    }
+    .Image2 img{
+        margin:auto;
+        height: 400px;
+        width: 700px;
+        display: flex;
+        justify-content: center;
+    }
+</style>
+
+<body>
+    <div class="table">
+        <div class="table2">
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Course</th>
+                    <th>Fees</th>
+                </tr>
+                <td>Jack</td>
+                <td>Front End Development</td>
+                <td>25000</td>
+                <tr>
+                <tr>
+                    <td>James</td>
+                    <td>Bsck End Development</td>
+                    <td>30000</td>
+                </tr>
+                <tr>
+                    <td>Jen</td>
+                    <td>Full Stack Development</td>
+                    <td>45000</td>
+                </tr>
+
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <div class="Image1">
+        <div class="Image2" >
+            <img src="./Img/snow-gae216731e_1920.jpg"  alt="img" />
+        </div>
+    </div>
+</body>
+
+</html>
